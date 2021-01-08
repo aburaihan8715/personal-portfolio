@@ -1,0 +1,235 @@
+/*==============================================
+common css
+===============================================*/
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    background: #4F5456;
+    color: #363958;
+}
+section{
+    background: #FFFFFF;
+    overflow: hidden;
+    padding: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+.half_width{
+    width: 40%;
+    float: left;
+    margin: 10px;
+    padding: 35px;
+}
+ img{
+width: 100%;
+height: auto;
+}
+.text_highlighter{
+    color:darkgoldenrod;
+}
+
+/*==============================================
+css for menusection
+===============================================*/
+#menu_section{
+    padding-top: 10px;
+}
+.navbar ul{
+    list-style-type: none;
+    text-align: right;
+}
+.navbar ul li{
+    display: inline;
+    margin: 10px;
+}
+.navbar ul li a{
+    text-decoration: none;
+}
+
+
+
+/*==============================================
+css for banner section
+===============================================*/
+#banner_section{
+    padding-top: 0;
+    margin-top: 0;
+}
+.half_width h1{
+
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.half_width a{
+    text-decoration: none;
+    text-transform: capitalize;
+    background-image: linear-gradient(45deg, #282C34, #F76860);
+    color: cornsilk;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+    
+/*==============================================
+css for about section
+===============================================*/
+#about_section{
+    padding-top: 0;
+    margin-top: 0;
+}
+.half_width h2{
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.d_btn{
+    text-transform: capitalize;
+    background-image: linear-gradient(45deg, #282C34, #F76860);
+    color: cornsilk;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
+    padding: 12px 25px;
+}
+/*==============================================
+css for project section
+===============================================*/
+#projects_section{
+    padding-top: 0;
+    margin-top: 0;
+    background-color: #F8F9FC;
+    padding-bottom: 100px;
+}
+.projects_heading{
+    padding-top: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+.projects_wrapper{
+overflow: hidden;
+padding-top: 25px;
+}
+.child_project{
+    width: 33.33%;
+    float: left;
+}
+/*==============================================
+css for inquiry section
+===============================================*/
+#inquiry_section{
+    padding-top: 0;
+    margin-top: 0;
+    padding-top: 50px;
+    
+}
+.inquiry_wrapper{
+    background-image: url("shapes/inquirybg.png");
+    background-position: center;
+    background-size: 65%;
+    background-repeat: no-repeat;
+    
+    
+}
+.inq_heading{
+    display: inline-block;
+    margin-left: 200px;
+}
+.inq_heading h3{
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: rgb(240, 243, 248);
+   
+}
+.inq_chat{
+   /* background-color: teal;*/
+    display: inline-block;
+    position: relative;
+    bottom: 10px;
+    padding-left: 150px;
+
+}
+.inq_chat a{
+    background-image: linear-gradient(45deg, #282C34, #F76860);
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 50px;
+    color: white;
+    text-transform: capitalize;
+    text-decoration: none;
+    
+ }
+ /*==============================================
+css for services section
+===============================================*/
+#services_section{
+    padding-top: 0;
+    margin-top: 0;
+    background-color: #DEE1E6;
+}
+.service_heading h3{
+font-size: 30px;
+text-align: center;
+}
+.service_details{
+
+}
+.single_service{
+float: left;
+width: 30.33%;
+border: 1px solid rgb(248, 239, 239);
+margin: 0 1%;
+
+}
+.single_service h5{
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+ /*==============================================
+css for footer section
+===============================================*/
+#footer_section{
+    padding-top: 0;
+    margin-top: 0;
+    padding-top: 50px;
+    text-align: center;
+}
+#footer_section p{
+font-size: 20px;
+font-weight: 500; margin-bottom: 0;
+}
+#footer_section h4{
+font-size: 40px;
+margin-top: 0;
+margin-bottom: 0;
+}
+
+#footer_section a{
+text-decoration: none;
+}
+   /*==============================================
+css for social icon
+===============================================*/
+.social_icon {
+    margin-top: 0;
+    padding-top: 0;
+}
+  
+.social_icon a{
+    margin-top: 0;
+    padding-top: 0;
+}
+.social_icon a img{
+    width: 30px;
+    height: 30px; 
+    margin: 10px;
+    
+}
